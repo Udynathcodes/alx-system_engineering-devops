@@ -2,9 +2,9 @@
 #client SSH configuration using Puppet
 
 file { 'etc/ssh/ssh_config':
-	ensure => present,
+  ensure => present,
 
-content =>"
+content  =>"
 
 	#SSH client configuration
 	host*
