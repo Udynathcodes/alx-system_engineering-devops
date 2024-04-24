@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# starting apache2 insde docker
+
+service apache2 start
